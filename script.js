@@ -1,3 +1,5 @@
 let button = document.querySelectorAll('button')
 
-array.forEach((element) => {})
+button.forEach((element) => {
+  console.log(element)
+})

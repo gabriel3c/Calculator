@@ -4,28 +4,34 @@
   box-sizing: 0;
 }
 body {
-  background-color: rgb(175, 66, 66);
-  color: beige;
+  background-color: rgba(173, 26, 48, 0.993);
   height: 100vh;
 }
 
 .titulo-principal {
   text-align: center;
+  color: white;
 }
 
 main {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   height: 90vh;
+  width: 100vw;
 }
 .calculadora {
-  background-color: rgba(0, 0, 0, 0.938);
+  background-color: rgba(247, 132, 149, 0.993);
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 auto;
   width: 250px;
   height: 400px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: 0;
 }
 
 .modelo {
@@ -50,20 +56,33 @@ table {
   height: 275px;
 }
 button {
-  background-color: rgba(32, 32, 32, 0.603);
+  background-color: white;
   border: none;
-  color: white;
+  border-radius: 5px;
+  color: black;
   font-size: 1.8rem;
   width: 3rem;
   height: 3rem;
   margin: 3px;
 }
 button:hover {
-  background-color: black;
+  background-color: rgb(255, 50, 50);
 }
 .igual {
   height: 6.5rem;
 }
 .zero {
   width: 6.5rem;
+}
+
+.bloconotas {
+  background-image: url('./assets/bgnotepad.png');
+  background-repeat: no-repeat;
+
+  width: 500px;
+  height: 600px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: auto;
 }
