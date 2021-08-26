@@ -19,6 +19,8 @@ body {
 
 main {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
   height: 85vh;
@@ -109,18 +111,17 @@ table {
   justify-content: center;
 }
 .clearResults {
+  display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: center;
   border: none;
   border-radius: 0.5rem;
   background: rgba(247, 132, 149, 0.993);
   font-size: 1.8rem;
   width: 5rem;
   height: 3rem;
-  margin-right: 37px;
-  margin-left: auto;
-  margin-top: 5px;
-  padding: 5px;
+  margin: 5px 37px 0 auto;
+  padding: 0 50px;
 }
 
 .clearResults:hover {
