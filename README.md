@@ -7,4 +7,4 @@
 <p>Estes códigos foram meus primeiros passos em desenvolvimento.</p>
 
 <h2> Prévia: </h2>
-<img src="./assets/calculator.gif"/>
+<img src="./assets/preview/calculator.gif"/>
